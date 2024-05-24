@@ -1,0 +1,22 @@
+id,date_time,rater,ratee,comment,share_with_ratee,acknowledged_by_ratee,ratee_comment,lm_comment,active
+1,1715881126472,alice.smith@example.com,bob.jones@example.com,Great leadership skills,true,true,Thank you!,Well noted,true
+2,1715882126472,bob.jones@example.com,charlie.brown@example.com,Needs improvement in communication,false,false,,Keep an eye on this,true
+3,1715883126472,charlie.brown@example.com,david.wilson@example.com,Excellent problem-solving abilities,true,true,Appreciate the feedback!,Well deserved,true
+4,1715884126472,david.wilson@example.com,eva.green@example.com,Creative ideas in marketing,true,true,Glad you liked them!,Great work,true
+5,1715885126472,eva.green@example.com,frank.black@example.com,Good technical skills,true,true,Thanks!,Impressive,true
+6,1715886126472,frank.black@example.com,grace.white@example.com,Teamwork could be better,false,false,,Let's work on this,true
+7,1715887126472,grace.white@example.com,hannah.baker@example.com,Excellent time management,true,true,Thanks for noticing!,Well organized,true
+8,1715888126472,hannah.baker@example.com,ian.gray@example.com,Great customer service,true,true,Thank you!,Outstanding,true
+9,1715889126472,ian.gray@example.com,jane.doe@example.com,Leadership skills need improvement,false,false,,Focus here,true
+10,1715890126472,jane.doe@example.com,jack.smith@example.com,Good communication skills,true,true,Thanks!,Keep it up,true
+11,1715891126472,jack.smith@example.com,kim.lee@example.com,Effective project management,true,true,Thanks for the feedback!,Excellent,true
+12,1715892126472,kim.lee@example.com,laura.kim@example.com,Sales performance is top-notch,true,true,Appreciate it!,Remarkable,true
+13,1715893126472,laura.kim@example.com,mike.brown@example.com,Technical skills are average,true,true,Will improve!,Keep training,true
+14,1715894126472,mike.brown@example.com,nina.wilson@example.com,Creativity is lacking,false,false,,Need to be more creative,true
+15,1715895126472,nina.wilson@example.com,oscar.green@example.com,Good problem-solving skills,true,true,Thanks!,Very good,true
+16,1715896126472,oscar.green@example.com,paul.black@example.com,Great teamwork,true,true,Happy to hear that!,Keep it up,true
+17,1715897126472,paul.black@example.com,quincy.white@example.com,Needs better time management,false,false,,Work on it,true
+18,1715898126472,quincy.white@example.com,rachel.gray@example.com,Excellent sales performance,true,true,Thanks!,Outstanding,true
+19,1715899126472,rachel.gray@example.com,sam.baker@example.com,Good communication skills,true,true,Appreciate it!,Very communicative,true
+20,1715900126472,sam.baker@example.com,tina.jones@example.com,Leadership is commendable,true,true,Thanks a lot!,Very good,true
+21,1716234892483,alice.smith@example.com,bob.jones@example.com,Bob has come on so much since the early days.,true,false,,,true

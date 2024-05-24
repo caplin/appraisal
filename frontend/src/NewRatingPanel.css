@@ -1,0 +1,15 @@
+.NewRatingPanel, ratingView {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.ratingSelect {
+    padding: 6px;
+    height: 2.2em;
+}
+
+.newRatingDisplay {
+    height: calc(100% - 2.2em);
+}

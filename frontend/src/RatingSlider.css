@@ -1,0 +1,20 @@
+.RatingSlider {
+    padding: 0px 20px 80px;
+}
+
+.refPoint {
+    border: 1px solid #dddd00;
+    max-width: 110px;
+    border-radius: 6px;
+    padding: 2px;
+    background-color: #fffff2;
+    font-size: x-small;
+}
+
+.rc-slider-mark-text {
+    z-index: 1;
+}
+
+.rc-slider-mark-text:hover {
+    z-index: 2;
+}

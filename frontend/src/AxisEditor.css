@@ -1,0 +1,34 @@
+.AxisEditor {
+    padding: 6px;
+}
+
+.AxisEditor label {
+    width: 120px;
+    display: inline-block;
+}
+
+.AxisEditor input[type=text] {
+    width: 550px;
+}
+
+.AxisEditor .RatingSlider {
+    margin-bottom: 50px;
+}
+
+.axisDescription {
+    font-size: small;
+}
+
+.AxisEditor span.group {
+    font-family: monospace;
+}
+
+.AxisEditor .audienceSetting {
+    padding-left: 40px;
+}
+
+.AxisEditor .submitSection {
+    border-top: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
+}

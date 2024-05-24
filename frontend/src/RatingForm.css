@@ -1,0 +1,79 @@
+.ratingBody {
+    height: calc(100% - 40px); /* sorry for the hardcoding not sure why it doesn't pick up the height right*/
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 100%;
+    line-height: 1.02rem;
+    height: 400px;
+    padding: 10px;
+}
+
+.modified > .accordion__button {
+    background-color: #bbf1bb;
+}
+
+section.rating {
+    text-align: left;
+    margin: 30px;
+}
+
+.ratingScoresAndComments {
+    width: 100%;
+    border-top: 1px solid #aaa;
+    position: relative;
+    flex: 1;
+}
+
+.ratingComments {
+    position: absolute;
+    top: 0;
+    left: 60%;
+    bottom: 0px;
+    padding-right: 6px;
+    padding-left: 6px;
+    width: 40%;
+    overflow-y: auto;
+}
+
+.ratingScores {
+    position: absolute;
+    top: 0px;
+    width: 60%;
+    left: 0;
+    bottom: 0px;
+    overflow-y: scroll;
+}
+
+.ratingFooter {
+    flex: 0;
+    border-top: 1px solid grey;
+    background-color: white;
+    text-align: right;
+    padding: 6px;
+}
+
+.ratingFooter button {
+    font-size: x-large;
+    border-radius: 4px;
+}
+
+.ratingFooter button:hover {
+    background-color: black;
+    color: white;
+}
+
+.ratingDescription {
+    background-color: #969595;
+    color: white;
+    padding: 6px;
+    flex: 0;
+}
+
+.outOfRangeMessage {
+    font-size: x-small;
+}

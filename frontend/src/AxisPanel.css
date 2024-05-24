@@ -1,0 +1,23 @@
+.AxisPanel .AxisEditor {
+    height: calc(100% - 180px);
+    overflow-y: scroll;
+}
+
+.AxisPanel .AxisTable {
+    width: 100%;
+    font-size: small;
+    user-select: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 180px;
+    border-bottom: 1px solid grey;
+    padding: 6px;
+}
+
+.AxisPanel {
+    height: 100%;
+}
+
+.AxisTable.noSelection {
+    height: 100%;
+}

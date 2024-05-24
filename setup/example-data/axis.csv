@@ -1,0 +1,11 @@
+id,name,category,description,reference_points,creator,active
+1,Teamwork,Soft Skills,Ability to work well within a team environment,"[{""rating"": 0, ""description"": ""does not contribute to team""}, {""rating"": 100, ""description"": ""outstanding team player""}]",alice.smith@example.com,true
+2,Leadership,Soft Skills,Capability to lead and manage others,"[{""rating"": 0, ""description"": ""lacks leadership qualities""}, {""rating"": 100, ""description"": ""excellent leader""}]",bob.jones@example.com,true
+3,Technical Skill,Technical,Proficiency in technical tasks,"[{""rating"": 0, ""description"": ""beginner level""}, {""rating"": 100, ""description"": ""expert level""}]",frank.black@example.com,true
+4,Communication,Soft Skills,Effectiveness in communication,"[{""rating"": 0, ""description"": ""poor communication skills""}, {""rating"": 100, ""description"": ""excellent communicator""}]",charlie.brown@example.com,true
+5,Creativity,Soft Skills,Ability to think creatively and innovatively,"[{""rating"": 0, ""description"": ""lacks creativity""}, {""rating"": 100, ""description"": ""highly creative""}]",david.wilson@example.com,true
+6,Project Management,Technical,Efficiency in managing projects,"[{""rating"": 0, ""description"": ""poor project management""}, {""rating"": 100, ""description"": ""excellent project manager""}]",alice.smith@example.com,true
+7,Customer Service,Soft Skills,Quality of interaction with customers,"[{""rating"": 0, ""description"": ""poor customer service""}, {""rating"": 100, ""description"": ""excellent customer service""}]",eva.green@example.com,true
+8,Sales Performance,Performance,Effectiveness in sales activities,"[{""rating"": 0, ""description"": ""poor sales performance""}, {""rating"": 100, ""description"": ""outstanding sales performance""}]",david.wilson@example.com,true
+9,Problem Solving,Soft Skills,Skill in identifying and solving problems,"[{""rating"": 0, ""description"": ""unable to solve problems""}, {""rating"": 100, ""description"": ""excellent problem solver""}]",bob.jones@example.com,true
+10,Time Management,Soft Skills,Ability to manage time efficiently,"[{""rating"": 0, ""description"": ""poor time management""}, {""rating"": 100, ""description"": ""excellent time management""}]",frank.black@example.com,true

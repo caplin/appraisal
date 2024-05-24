@@ -1,0 +1,30 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetpack-io/devbox/0.10.1/.schema/devbox.schema.json",
+  "packages": [
+    "nodejs@22",
+    "postgresql@15",
+    "glibcLocales@latest",
+    "direnv@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Run `devbox run init_db` to initialise the DB.'",
+      "echo 'Run `devbox services up` to start the DB.'",
+      "echo 'Run `devbox run reset_db` to create the DB tables and populate with test data.'"
+    ],
+    "scripts": {
+      "init_db": [
+        "initdb"
+      ],
+      "reset_db": [
+        "dropdb --if-exists $DB_NAME",
+        "dropdb --if-exists ${DB_NAME}_test",
+        "createdb $DB_NAME",
+        "createdb ${DB_NAME}_test",
+        "psql $DB_NAME < application/setup_tables.sql",
+        "psql ${DB_NAME}_test < application/setup_tables.sql",
+        "setup/load_example_data.sh"
+      ]
+    }
+  }
+}

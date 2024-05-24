@@ -1,0 +1,83 @@
+.Rating {
+    position: relative;
+    padding: 0;
+    --line-color: #e8e6ee;
+    --line-width: 1.5px;
+    outline: none;
+}
+
+.Rating.enabled:focus {
+    background-color: rgba(0, 0, 0, 0.015);
+}
+
+.Rating.disabled {
+    filter: saturate(0.4)
+}
+
+.Rating .label {
+    font-family: "Roboto Slab", serif;
+    padding: 2px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    z-index: 10;
+    font-size: x-small;
+    border-radius: 3px;
+    user-select: none;
+    overflow: hidden;
+}
+
+.Rating.enabled .label:hover {
+    z-index: 20;
+    filter: saturate(2.2);
+}
+
+.Rating .line {
+    fill: transparent;
+    stroke: var(--line-color);
+    stroke-width: var(--line-width);
+}
+
+.Rating .point {
+    fill: white;
+    r: 4px;
+    stroke: var(--line-color);
+    stroke-width: var(--line-width);
+}
+
+/* track */
+.Rating .track {
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke: #e9e9e9;
+    pointer-events: none;
+}
+
+.Rating .track.selected {
+    stroke-width: 6;
+    stroke: #afe3fc;
+    background-color: #afe3fc;
+}
+
+/* The 'div' is just to increase the specificity */
+
+.Rating div .selected {
+    stroke-width: 3;
+    stroke: #afe3fc;
+    background-color: #afe3fc;
+    border: 1px solid #45a9c6;
+    r: 6px;
+}
+
+/*  Data set colours */
+
+.Rating .anchor {
+    background-color: #fff8c1;
+    border: 1px solid #eee663;
+    stroke: #eee663;
+}
+
+.Rating .previousRatings {
+    background-color: #ffaeb7;
+    border: 1px solid #cd0c21;
+    stroke: #cd0c21;
+}

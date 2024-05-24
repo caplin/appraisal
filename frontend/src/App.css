@@ -1,0 +1,17 @@
+.App {
+  font-family: 'Roboto Slab', serif;
+  height: 100vh;
+}
+
+.appHeader {
+  padding-left: 10px;
+  position: absolute;
+  right: 0;
+  padding: 0;
+  margin: 6px;
+}
+
+.appTabs {
+  height: 100vh;
+  position: relative;
+}
