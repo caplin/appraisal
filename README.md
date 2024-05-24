@@ -3,7 +3,7 @@
 This is the appraisal project. It was a project done for fun during self-directed project time
 by a manager at Caplin with the aim of creating a simple appraisal system for Caplin to use internally.
 
-It 
+It is released under the MIT license.
 
 ## Developing locally
 
@@ -16,8 +16,9 @@ All other dependencies are managed with these tools.  I develop on linux, but I 
 done anything to make other systems not work. I do expect that you'll want to be on WSL on windows.
 
 Then when you go into the project directory, direnv will start the devbox environment.
-If it doesn't, you can drop into the shell with `devbox shell`. You may need to run `direnv allow` to
-give the setup scripts permission to run.
+If it doesn't, you can drop into the shell with `devbox shell`. 
+
+You may need to run `direnv allow` to give the setup scripts permission to run.
 
 If you have any port clashes, you can change them in `setup/dev.env`
 
